@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: stonebld1514
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads-stage/ncross-tenant/stonebld1514/stonebld1514@sha256:fb1612d74ed69ff80e5486f5fb48e81305458f7fe6c2b16681ba8f6e5d8ef5fe
         name: my-java-quarkus
         ports:
         - containerPort: 8081
