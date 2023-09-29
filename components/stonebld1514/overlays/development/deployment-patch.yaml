@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: stonebld1514
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ncross-tenant/stonebld1514/stonebld1514@sha256:fb1612d74ed69ff80e5486f5fb48e81305458f7fe6c2b16681ba8f6e5d8ef5fe
+        name: my-java-quarkus
+        resources: {}
+status: {}
